@@ -2,6 +2,8 @@ import '../../dialog_flowtter.dart';
 
 /// The DialogFlowtter http util
 class HttpUtil {
+  HttpUtil._();
+
   /// Returns the body of the http request filtering the null params
   static Map<String, dynamic> getBody({
     QueryParameters? queryParams,
